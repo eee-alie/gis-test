@@ -1,16 +1,45 @@
 from __future__ import unicode_literals
+
+import uuid
+
 from django.db.models import Manager as GeoManager
 from django.contrib.gis.db import models
+import folium
+import io
+from PIL import Image
 
 
 # Create your models here.
 class Incidences(models.Model):
     name = models.CharField(max_length=32)
     location = models.PointField(srid=4326)
+    image = models.ImageField(upload_to="media/image")
     objects = GeoManager()
 
     def __unicode__(self):
         return self.name
+
+    def location_to_x_y(self, location):
+        list = str(location).split(';')[1]
+        list = list.split('(')[1]
+        list = list.split(')')[0]
+        list = list.split(' ')
+        x = list[0]
+        y = list[1]
+        return x, y
+
+    def location_to_image(self, x, y):
+        name = 'media/image/' + uuid.uuid4().hex[:5] + '.png'
+        map_obj = folium.Map([x, y], zoom_start=13, control_scale=True)
+        img = Image.open(io.BytesIO(map_obj._to_png()))
+        img.save(name)
+        return name
+
+    def save(self, *args, **kwargs):
+        y = self.location_to_x_y(self.location)[0]
+        x = self.location_to_x_y(self.location)[1]
+        self.image = self.location_to_image(x, y)
+        super(Incidences, self).save(*args, **kwargs)
 
     class Meta:
         verbose_name_plural = "Incidences"

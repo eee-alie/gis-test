@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3e6b589-22e8-4ac6-8712-98630705644c" name="Changes" comment="first commit" />
+    <list default="true" id="c3e6b589-22e8-4ac6-8712-98630705644c" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/0b6b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporter/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporter/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reporter/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/reporter/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reporter/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/reporter/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -89,7 +98,10 @@
       <option name="presentableId" value="Default" />
       <updated>1646464337986</updated>
       <workItem from="1646464339065" duration="23000" />
-      <workItem from="1646464394628" duration="12383000" />
+      <workItem from="1646464394628" duration="13205000" />
+      <workItem from="1646644552705" duration="500000" />
+      <workItem from="1646728576150" duration="2367000" />
+      <workItem from="1646739782234" duration="3251000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1646491002812</created>
@@ -98,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646491002812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1646491074263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646491074263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
