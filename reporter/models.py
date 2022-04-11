@@ -13,7 +13,7 @@ from PIL import Image
 class Incidences(models.Model):
     name = models.CharField(max_length=32)
     location = models.PointField(srid=4326)
-    image = models.ImageField(upload_to="media/image")
+    image = models.ImageField(upload_to="image", blank = True)
     objects = GeoManager()
 
     def __unicode__(self):
@@ -36,6 +36,7 @@ class Incidences(models.Model):
         return name
 
     def save(self, *args, **kwargs):
+        print(self.location)
         y = self.location_to_x_y(self.location)[0]
         x = self.location_to_x_y(self.location)[1]
         self.image = self.location_to_image(x, y)

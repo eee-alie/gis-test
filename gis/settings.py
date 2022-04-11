@@ -128,3 +128,6 @@ LEAFLET_CONFIG = {
     'MAX_ZOOM': 18,
     'MIN_ZOOM': 3
 }
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, '')

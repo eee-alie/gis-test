@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3e6b589-22e8-4ac6-8712-98630705644c" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/0b6b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/image/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reporter/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reporter/geckodriver.log" afterDir="false" />
+    <list default="true" id="c3e6b589-22e8-4ac6-8712-98630705644c" name="Changes" comment="image saving added">
+      <change afterPath="$PROJECT_DIR$/media/image/322b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/4338a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/49471.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image/6918c.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gis/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gis/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gis/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/0b6b3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/image/image.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reporter/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/reporter/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reporter/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/reporter/models.py" afterDir="false" />
     </list>
@@ -33,6 +37,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -51,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -59,6 +71,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gis" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/reporter/templates/gis" />
       <recent name="$PROJECT_DIR$/reporter" />
@@ -101,7 +116,12 @@
       <workItem from="1646464394628" duration="13205000" />
       <workItem from="1646644552705" duration="500000" />
       <workItem from="1646728576150" duration="2367000" />
-      <workItem from="1646739782234" duration="3251000" />
+      <workItem from="1646739782234" duration="3652000" />
+      <workItem from="1646743994773" duration="1819000" />
+      <workItem from="1648540445725" duration="604000" />
+      <workItem from="1648542296086" duration="4279000" />
+      <workItem from="1648548463220" duration="5146000" />
+      <workItem from="1648939725031" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1646491002812</created>
@@ -117,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646491074263</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="image saving added">
+      <created>1646743692541</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646743692541</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +164,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="image saving added" />
+    <option name="LAST_COMMIT_MESSAGE" value="image saving added" />
   </component>
 </project>
