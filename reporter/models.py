@@ -11,9 +11,9 @@ from PIL import Image
 
 # Create your models here.
 class Incidences(models.Model):
-    name = models.CharField(max_length=32)
+    name = models.CharField(max_length=32, unique=True)
     location = models.PointField(srid=4326)
-    image = models.ImageField(upload_to="image", blank = True)
+    image = models.ImageField(upload_to="image", blank=True)
     objects = GeoManager()
 
     def __unicode__(self):
@@ -28,6 +28,22 @@ class Incidences(models.Model):
         y = list[1]
         return x, y
 
+    def get_location_x(self):
+        list = str(self.location).split(';')[1]
+        list = list.split('(')[1]
+        list = list.split(')')[0]
+        list = list.split(' ')
+        x = list[0]
+        return x
+
+    def get_location_y(self):
+        list = str(self.location).split(';')[1]
+        list = list.split('(')[1]
+        list = list.split(')')[0]
+        list = list.split(' ')
+        y = list[1]
+        return y
+
     def location_to_image(self, x, y):
         name = 'media/image/' + uuid.uuid4().hex[:5] + '.png'
         map_obj = folium.Map([x, y], zoom_start=13, control_scale=True)
@@ -36,7 +52,6 @@ class Incidences(models.Model):
         return name
 
     def save(self, *args, **kwargs):
-        print(self.location)
         y = self.location_to_x_y(self.location)[0]
         x = self.location_to_x_y(self.location)[1]
         self.image = self.location_to_image(x, y)

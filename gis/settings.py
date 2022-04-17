@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.gis',
     'leaflet',
     'reporter',
+    'rest_framework',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
