@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3e6b589-22e8-4ac6-8712-98630705644c" name="Changes" comment="bug fixed">
-      <change afterPath="$PROJECT_DIR$/reporter/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/req.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gis/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gis/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gis/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reporter/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/reporter/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reporter/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/reporter/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reporter/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/reporter/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +115,9 @@
       <workItem from="1650042966935" duration="898000" />
       <workItem from="1650103368726" duration="1765000" />
       <workItem from="1650206548143" duration="1737000" />
+      <workItem from="1650268434521" duration="52000" />
+      <workItem from="1650537012503" duration="650000" />
+      <workItem from="1650587761214" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1646491002812</created>
